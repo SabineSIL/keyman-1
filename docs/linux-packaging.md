@@ -89,7 +89,7 @@ are scattered over several source repos:
     - [jenkins.sh](https://github.com/keymanapp/keyman/blob/master/linux/scripts/jenkins.sh)
       gets called from `lsdev-pipeline-library` to create a source package.
 
-  - [debian](https://github.com/keymanapp/keyman/tree/master/debian) - this is the `debian`
+  - [linux/debian](https://github.com/keymanapp/keyman/tree/master/linux/debian) - this is the `debian`
     subdirectory for Keyman for Linux with the meta data for the Linux package. The legacy
     kmfl-related packages have separate debian subdirectories under `linux/*/debian`.
     See [Debian New Maintainers' Guide](https://www.debian.org/doc/manuals/maint-guide/) for
