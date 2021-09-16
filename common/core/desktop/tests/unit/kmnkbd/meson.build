@@ -2,13 +2,22 @@
 # Description:  Cross platform build script to compile libkmnkbp API unit tests.
 # Create Date:  19 Oct 2018
 # Authors:      Tim Eves (TSE)
+<<<<<<< HEAD
 # 
 
+=======
+#
+ 
+>>>>>>> 116f4bb10e70076d74096d51bdb5c632fc162158
 defns=['-DKMN_KBP_STATIC']
 tests = [
   ['kmx_xstring', 'test_kmx_xstring.cpp'],
 ]
+<<<<<<< HEAD
   
+=======
+ 
+>>>>>>> 116f4bb10e70076d74096d51bdb5c632fc162158
 foreach t : tests
   bin = executable(t[0], t[1],
     cpp_args: defns,
