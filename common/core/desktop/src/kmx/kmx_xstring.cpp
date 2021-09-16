@@ -157,11 +157,7 @@ PKMX_WCHAR km::kbp::kmx::incxstr(PKMX_WCHAR p)
     case CODE_SETSYSTEMSTORE:	deltaptr = 4; break;
     case CODE_RESETOPT:				deltaptr = 3; break;
     case CODE_SAVEOPT:				deltaptr = 3; break;
-<<<<<<< HEAD
     default:			 						deltaptr = 2;
-=======
-    default:									deltaptr = 2;
->>>>>>> 116f4bb10e70076d74096d51bdb5c632fc162158
     }
 
     // check for \0 between FFFF and next printable character
